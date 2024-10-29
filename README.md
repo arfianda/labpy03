@@ -7,7 +7,7 @@ Repository ini berisi tentang dua buah kode program yang berfungsi untuk men-gen
 - [Programs](#programs)
   - [Random Number Generator (latihan1.py)](#random-number-generator-latihan1py)
   - [Investment Profit Calculator (latihan2.py)](#investment-profit-calculator-latihan2py)
-  - [ATM Sederhana (latihan3.py)](#at,-sederhana-latihan3py))
+  - [ATM Sederhana (latihan3.py)](#atm-sederhana-latihan3py))
 - [Cara menjalankan](#how-to-run)
 - [Program Details](#program-details)
 
