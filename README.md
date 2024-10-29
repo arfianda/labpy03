@@ -162,7 +162,7 @@ python3 latihan3.py
 
 ### latihan3.py
 
-### Komponen Utama
+### Komponen Utama(ATM Sederhana)
 
 1. **Variabel Saldo**
 
@@ -178,7 +178,7 @@ python3 latihan3.py
    - Memastikan pilihan menu valid (1 atau 2)
    - Memastikan jumlah penarikan tidak melebihi saldo
 
-### Batasan Program
+### Batasan Program (ATM Sederhana)
 
 - Saldo awal tetap: Rp 1.000.000
 - Hanya menyediakan fitur penarikan
