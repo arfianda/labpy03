@@ -183,3 +183,5 @@ python3 latihan3.py
 - Saldo awal tetap: Rp 1.000.000
 - Hanya menyediakan fitur penarikan
 - Tidak ada fitur penyimpanan data permanen
+
+##  © Arfianda Satritama <arfiandafirsta@gmail.com>
