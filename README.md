@@ -7,6 +7,7 @@ Repository ini berisi tentang dua buah kode program yang berfungsi untuk men-gen
 - [Programs](#programs)
   - [Random Number Generator (latihan1.py)](#random-number-generator-latihan1py)
   - [Investment Profit Calculator (latihan2.py)](#investment-profit-calculator-latihan2py)
+  - [ATM Sederhana (latihan3.py)](#at,-sederhana-latihan3py))
 - [Cara menjalankan](#how-to-run)
 - [Program Details](#program-details)
 
@@ -75,6 +76,46 @@ laba bulan ke- 8 sebesar: 20000000.0
 Total laba adalah: 190000000.0
 ```
 
+### ATM Sederhana (latihan3.py)
+
+Program ini akan mensimulasikan mesin ATM sederhana dengan fitur penarikan uang dan pengecekan saldo.
+
+## Fitur Program
+
+1. Menampilkan saldo
+2. Penarikan uang
+3. Keluar dari program
+
+#### Algorithm:
+
+```python
+1. Inisialisasi:
+   - Set saldo awal = Rp 1.000.000
+
+2. Mulai perulangan utama:
+   a. Tampilkan informasi:
+      - Saldo saat ini
+      - Menu pilihan (1. Tarik Uang, 2. Keluar)
+
+   b. Minta input pilihan menu dari pengguna
+
+   c. Jika pilihan = 1 (Tarik Uang):
+      - Minta input jumlah penarikan
+      - Cek apakah jumlah <= saldo
+      - Jika ya: kurangi saldo dan tampilkan pesan sukses
+      - Jika tidak: tampilkan pesan saldo tidak cukup
+
+   d. Jika pilihan = 2 (Keluar):
+      - Tampilkan pesan terima kasih
+      - Keluar dari program
+
+   e. Jika pilihan tidak valid:
+      - Tampilkan pesan error
+      - Kembali ke awal perulangan
+
+3. Program selesai
+```
+
 ## How to Run
 
 1. Pastikan Python 3.x sudah terinstal di sistem Anda
@@ -95,6 +136,7 @@ cd [repository-name]
 ```bash
 python3 latihan1.py
 python3 latihan2.py
+python3 latihan3.py
 ```
 
 ## Program Details
@@ -117,3 +159,27 @@ python3 latihan2.py
   - Bulan 8: 2%
 - Memberikan rincian laba bulanan
 - Menghitung total laba yang terakumulasi
+
+### latihan3.py
+
+### Komponen Utama
+
+1. **Variabel Saldo**
+
+   - Menyimpan jumlah saldo yang tersedia
+   - Diinisialisasi dengan nilai Rp 1.000.000
+
+2. **Loop Utama**
+
+   - Menggunakan while True untuk menjalankan program terus-menerus
+   - Berhenti hanya jika user memilih keluar
+
+3. **Validasi Input**
+   - Memastikan pilihan menu valid (1 atau 2)
+   - Memastikan jumlah penarikan tidak melebihi saldo
+
+### Batasan Program
+
+- Saldo awal tetap: Rp 1.000.000
+- Hanya menyediakan fitur penarikan
+- Tidak ada fitur penyimpanan data permanen
