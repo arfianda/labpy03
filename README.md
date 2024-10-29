@@ -88,7 +88,7 @@ Program ini akan mensimulasikan mesin ATM sederhana dengan fitur penarikan uang 
 <img src="/hasil/latihan3.png" width="500" alt="">
 
 
-## Fitur Program
+## Fitur Program ATM
 
 1. Menampilkan saldo
 2. Penarikan uang
